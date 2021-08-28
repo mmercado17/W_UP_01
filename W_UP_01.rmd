@@ -81,3 +81,4 @@ t.test(pushups~position,data=mydata)
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+ To the conclusion made we have found that there definitely is a difference. With this difference being that the skill player very much out did the line players by 3 times the speed.
