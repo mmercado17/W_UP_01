@@ -41,6 +41,21 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+  
+
+## Now with ggplot - first select the basic data
+
+```{r}
+basicCN <- ggplot(mydata,aes(x=position,y=pushups))
+```
+## Now add in boxplot
+
+```{r}
+basicCN + geom_boxplot()
+```
+   
+  The reason I made a plot change was to make the comparison of who does more push ups either the line or the skill. The plot for skill is showing a higher plot than the ones for line. The middle 50 % is higher then the middle 50% for the line player.  
+   
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
